@@ -30,7 +30,9 @@ div{
   margin: 0;
   padding: 0;
 }
-
+li{
+  list-style: none;
+}
 .section {
   padding-bottom: 120px;
   /* 
@@ -427,6 +429,32 @@ Our team section
    padding-bottom: 32px;
    padding-left: 16px;
    padding-right: 16px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+ gap: 24px;
+}
+
+.social-media-item{
+ width: 40px;
+ height: 40px;
+
+ 
+}
+.social-link{
+  display: block;
+   background: var(--iris);
+   border-radius: 100%;
+   padding: 12px;
+   fill:var(--cloud);
+}
+
+/* .social-link:is(:hover, :focus) .social-icon { */
+.social-link:is(:hover, :focus) {
+  background: var(--green);
+  border: none;
 }
 /*Portfolio*/
 
