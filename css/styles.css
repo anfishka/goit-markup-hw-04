@@ -693,7 +693,7 @@ border: 1px solid rgba(0, 0, 0, 0.10);
  gap: 16px;
 }
 .container-footer{
-  margin-left: 120px;
+  margin-right: 120px ;
 }
 .footer .container{
 display: flex;
@@ -708,4 +708,9 @@ text-align: start;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
+}
+
+.footer-social-link:hover, 
+.footer-social-link:focus{
+  background-color: var(--green); 
 }
